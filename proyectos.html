@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Posibles Proyectos de Investigación</title>
+
+<style>
+
+:root {
+    --bg: #1d2021;
+    --bg-soft: #282828;
+    --border: #3c3836;
+
+    --fg: #ebdbb2;
+    --fg-soft: #d5c4a1;
+
+    --yellow: #fabd2f;
+    --green: #8ec07c;
+    --blue: #83a598;
+    --orange: #fe8019;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg);
+    color: var(--fg);
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: Georgia, serif;
+    line-height: 1.7;
+}
+
+h1 {
+    color: var(--yellow);
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: var(--blue);
+    margin-top: 0;
+}
+
+h3 {
+    color: var(--green);
+}
+
+p {
+    color: var(--fg-soft);
+}
+
+.proyecto {
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.descarga {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    background: var(--blue);
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.descarga:hover {
+    background: var(--green);
+}
+
+.seccion {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: #928374;
+    text-align: center;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Posibles Proyectos de Investigación</h1>
+
+<p>
+Esta página reúne laboratorios, grupos y líneas de trabajo que me resultan
+interesantes para realizar una tesina, pasantía o proyecto de investigación.
+La información es preliminar y está en constante actualización.
+</p>
+
+<div class="proyecto">
+
+    <h2>Física de Dispositivos (en particular MOSFETs)</h2>
+
+    <div class="seccion">
+        <h3>Lugar y directores</h3>
+
+        <p>
+            Facultad de Ingeniería — Laboratorio de Física de Dispositivos (LFDM).<br>
+            Andrés Faigón.
+        </p>
+    </div>
+
+    <div class="seccion">
+        <h3>Temas que tratan</h3>
+
+        <ul>
+            <li>Electrónica de medición y control</li>
+            <li>Física de dispositivos</li>
+            <li>MOSFETs</li>
+            <li>Sensores de radiación</li>
+            <li>Modelización de dispositivos</li>
+        </ul>
+    </div>
+
+    <div class="seccion">
+        <h3>Resumen</h3>
+
+        <p>
+            Resumen del área, proyectos actuales y posibles líneas de trabajo.
+            (En parte cortesía de mi amigo Claude.)
+        </p>
+    </div>
+
+    <div class="seccion">
+        <h3>Links de interés</h3>
+
+        <a class="descarga"
+           href="https://drive.google.com/file/d/TU_ARCHIVO/view"
+           target="_blank">
+           Documento asociado
+        </a>
+
+        <a class="descarga"
+           href="https://pagina-del-laboratorio.com"
+           target="_blank">
+           Sitio del laboratorio
+        </a>
+
+    </div>
+
+</div>
+
+<div class="proyecto">
+
+    <h2>Proyecto 2</h2>
+
+    <p>
+        Breve descripción del proyecto.
+    </p>
+
+    <a class="descarga"
+       href="https://drive.google.com/drive/folders/TU_CARPETA"
+       target="_blank">
+       Carpeta de archivos
+    </a>
+
+</div>
+
+<div class="proyecto">
+
+    <h2>Proyecto 3</h2>
+
+    <p>
+        Breve descripción del proyecto.
+    </p>
+
+    <a class="descarga"
+       href="#"
+       target="_blank">
+       Documentación
+    </a>
+
+</div>
+
+<footer>
+    Última actualización: junio de 2026
+</footer>
+
+</body>
+</html>
